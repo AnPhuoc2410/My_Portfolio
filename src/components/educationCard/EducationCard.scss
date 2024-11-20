@@ -49,8 +49,15 @@
   border-radius: 50%;
 }
 
+.education-card-left {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
 .education-card-right {
-  max-width: 70%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .education-text-subHeader {

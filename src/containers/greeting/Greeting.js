@@ -27,6 +27,8 @@ export default function Greeting() {
                 {greeting.title}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
+              <h3>I'm from VietNam</h3>
+              <h3>Currently living in Ho Chi Minh City</h3>
               <p
                 className={
                   isDark
