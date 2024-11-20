@@ -66,6 +66,10 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: #000;
+}
+.header .logo-name.dark-mode {
+  color: $titleColor; // Color for dark mode
 }
 
 /* menu */
