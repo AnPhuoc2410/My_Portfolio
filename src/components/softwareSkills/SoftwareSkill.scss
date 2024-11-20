@@ -1,31 +1,92 @@
-@import "../../_globalColor";
+.software-skills-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .dev-icons {
-  padding-left: 0;
-  list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
 }
 
-.software-skill-inline > i {
-  color: $subTitle;
+.skill-logo {
+  width: 30px; /* Adjusted size */
+  height: 30px; /* Adjusted size */
+  margin-bottom: 5px; /* Spacing between logo and text */
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
+.skill-name {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  position: absolute;
+  bottom: -20px; /* Adjust position as needed */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for better readability */
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Adjust font size as needed */
 }
-.software-skill-inline > p {
-  color: $subTitle;
-  font-size: 10px;
+
+.software-skill-inline:hover .skill-name {
+  visibility: visible;
+  opacity: 1;
 }
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
+
+/* Responsive adjustments */
+@media (min-width: 576px) {
+  .skill-logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .skill-name {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .skill-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skill-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .skill-logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .skill-name {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skill-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill-name {
+    font-size: 1.3rem;
+  }
 }

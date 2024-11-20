@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnime"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -20,27 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "An Phuoc",
+  title: "Hi there, I'm Phuoc!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Back-End Software Developer 👀 with experience in building robust and scalable website and desktop applications using Java, C#, Spring Boot, .NET Framework, and other cutting-edge libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://www.topcv.vn/xem-cv/AlBTAgEKUlJXB1UFUgcNUAVXUlddVQcBAFELVg1b58", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/AnPhuoc2410",
+  gmail: "anphuocdao2410@gmail.com",
+  facebook: "https://www.facebook.com/anphuocdao2410",
+  instagram: "https://www.instagram.com/anphuocdao2410",
+  twitter: "https://twitter.com/AnPhuoc2410",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -48,75 +45,90 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Here What I Do",
+  subTitle: "Back-End DEVELOPER WHO WANTS TO EXPLORE EVERY TECH",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Developing highly efficient server-side logic and database management systems"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Implementing RESTful APIs and microservices architecture"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ Redis / Azure / Docker"
+    ),
+    emoji(
+      "⚡ Developing and maintaining scalable and secure systems using Spring Boot / .NET Core"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  {
+    skillName: "React",
+    logo: "https://skillicons.dev/icons?i=react&theme=dark"
+  },
+  {
+    skillName: "Bootstrap",
+    logo: "https://skillicons.dev/icons?i=bootstrap&theme=dark"
+  },
+  {
+    skillName: "HTML",
+    logo: "https://skillicons.dev/icons?i=html&theme=dark"
+  },
+  {
+    skillName: "CSS",
+    logo: "https://skillicons.dev/icons?i=css&theme=dark"
+  },
+  {
+    skillName: "JavaScript",
+    logo: "https://skillicons.dev/icons?i=js&theme=dark"
+  },
+  {
+    skillName: "MongoDB",
+    logo: "https://skillicons.dev/icons?i=mongodb&theme=dark"
+  },
+  {
+    skillName: "MySQL",
+    logo: "https://skillicons.dev/icons?i=mysql&theme=dark"
+  },
+  {
+    skillName: "Azure",
+    logo: "https://skillicons.dev/icons?i=azure&theme=dark"
+  },
+  {
+    skillName: "Docker",
+    logo: "https://skillicons.dev/icons?i=docker&theme=dark"
+  },
+  {
+    skillName: "Spring",
+    logo: "https://skillicons.dev/icons?i=spring&theme=dark"
+  },
+  {
+    skillName: "Java",
+    logo: "https://skillicons.dev/icons?i=java&theme=dark"
+  },
+  {
+    skillName: ".NET",
+    logo: "https://skillicons.dev/icons?i=dotnet&theme=dark"
+  },
+  {
+    skillName: "C#",
+    logo: "https://skillicons.dev/icons?i=cs&theme=dark"
+  },
+  {
+    skillName: "C++",
+    logo: "https://skillicons.dev/icons?i=cpp&theme=dark"
+  },
+  {
+    skillName: "Firebase",
+    logo: "https://skillicons.dev/icons?i=firebase&theme=dark"
+  },
+  {
+    skillName: "Redis",
+    logo: "https://skillicons.dev/icons?i=redis&theme=dark"
+  }
+],
   display: true // Set false to hide this section, defaults to true
 };
 
