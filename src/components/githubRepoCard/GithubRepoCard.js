@@ -1,9 +1,9 @@
 import React from "react";
 import "./GithubRepoCard.scss";
-import {Fade} from "react-reveal";
-import {formatFileSizeDisplay} from "../../utils";
+import { Fade } from "react-reveal";
+import { formatFileSizeDisplay } from "../../utils";
 
-export default function GithubRepoCard({repo, isDark}) {
+export default function GithubRepoCard({ repo, isDark }) {
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL in ${name} is undefined`);
@@ -40,15 +40,15 @@ export default function GithubRepoCard({repo, isDark}) {
           <p className="repo-description">{repo.node.description}</p>
           <div className="repo-stats">
             <div className="repo-left-stat">
-              {repo.node.primaryLanguage !== null && (
-                <span>
+              {repo.node.languages.edges.map(({ node }) => (
+                <span key={node.name} className="language">
                   <div
                     className="language-color"
-                    style={{backgroundColor: repo.node.primaryLanguage.color}}
+                    style={{ backgroundColor: node.color }}
                   ></div>
-                  <p>{repo.node.primaryLanguage.name}</p>
+                  <p>{node.name}</p>
                 </span>
-              )}
+              ))}
               <span>
                 <svg
                   aria-hidden="true"

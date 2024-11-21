@@ -1,6 +1,6 @@
-fs = require("fs");
+const fs = require("fs");
 const https = require("https");
-process = require("process");
+const process = require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
@@ -16,6 +16,7 @@ const ERR = {
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
+
 if (USE_GITHUB_DATA === "true") {
   if (GITHUB_USERNAME === undefined) {
     throw new Error(ERR.noUserName);
@@ -44,9 +45,14 @@ if (USE_GITHUB_DATA === "true") {
               url
               id
               diskUsage
-              primaryLanguage {
-                name
-                color
+              languages(first: 10) {
+                edges {
+                  node {
+                    name
+                    color
+                  }
+                  size
+                }
               }
             }
           }
@@ -56,6 +62,7 @@ if (USE_GITHUB_DATA === "true") {
 }
 `
   });
+
   const default_options = {
     hostname: "api.github.com",
     path: "/graphql",
@@ -79,7 +86,12 @@ if (USE_GITHUB_DATA === "true") {
       data += d;
     });
     res.on("end", () => {
-      fs.writeFile("./public/profile.json", data, function (err) {
+      const profileData = JSON.parse(data);
+      profileData.data.user.pinnedItems.edges.forEach(repo => {
+        const totalSize = repo.node.languages.edges.reduce((acc, lang) => acc + lang.size, 0);
+        repo.node.languages.edges = repo.node.languages.edges.filter(lang => (lang.size / totalSize) * 100 >= 5);
+      });
+      fs.writeFile("./public/profile.json", JSON.stringify(profileData), function (err) {
         if (err) return console.log(err);
         console.log("saved file to public/profile.json");
       });
@@ -108,7 +120,7 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      throw new Error(ERR.requestFailedMedium);
     }
 
     res.on("data", d => {
