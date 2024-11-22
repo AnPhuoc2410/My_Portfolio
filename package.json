@@ -1,7 +1,7 @@
 {
-  "homepage": "https://AnPhuoc2410.github.io/My_Portfolio",
-  "name": "AnPhuoc2410",
-  "version": "0.1.0",
+  "homepage": "https://anphuoc2410.github.io",
+  "name": "personal-portfolio",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "AnPhuoc2410": "file:",
@@ -11,6 +11,7 @@
     "gh-pages": "^6.2.0",
     "jest-canvas-mock": "^2.3.1",
     "lottie-react": "^2.4.0",
+    "personal-portfolio": "file:",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.8.1",
@@ -25,7 +26,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
