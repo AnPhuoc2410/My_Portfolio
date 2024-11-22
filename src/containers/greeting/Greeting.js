@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Fade } from "react-reveal";
+import Typical from "react-typical";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import coding from "../../assets/lottie/coding";
@@ -22,18 +23,27 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
+              {/* Add Typing Animation */}
               <h1 className={isDark ? "dark-mode greeting-text" : "greeting-text"}>
-                {greeting.title} <span className="wave-emoji">{emoji("👋")}</span>
+                <Typical
+                  steps={[
+                    "Hi, I'm An Phuoc", 2000,
+                    "I'm from 🇻🇳", 2000,
+                    "Trying to Do Better!", 2000,
+                  ]}
+                  loop={Infinity}
+                  wrapper="span"
+                />
               </h1>
-              <Fade bottom duration={1000} distance="20px">
-                <h3>I'm from VietNam</h3>
-              </Fade>
-              <Fade bottom duration={1000} distance="20px">
-                <h3>Currently living in Ho Chi Minh City</h3>
-              </Fade>
-              <p className={isDark ? "dark-mode greeting-text-p" : "greeting-text-p subTitle"}>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode greeting-text-p"
+                    : "greeting-text-p subTitle"
+                }
+              >
                 {greeting.subTitle}
-                <p>Trying to Do Better!</p>
+                <span className="wave-emoji">{emoji("👀")}</span>
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
