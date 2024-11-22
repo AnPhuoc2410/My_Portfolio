@@ -23,26 +23,61 @@ html,
 body {
   scroll-behavior: smooth;
 }
+/* index.css */
+
+/* Global styles */
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  cursor: url('https://i.pinimg.com/originals/b0/a5/c9/b0a5c97aa78b746a003c36cc8bf593e3.png'), auto; /* Change the cursor to a custom image */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, 'JetBrains Mono', Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Customize scrollbar for WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background: #0f1923;
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #ff4655;
-  border-radius: 5px;
+  background: rgba(255, 70, 85, 0.7);
+  border-radius: 10px; 
+  border: 3px solid transparent; 
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff4655;
+  background: rgba(255, 70, 85, 0.9);
 }
+
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 0, 0, 0.5) #0f1923; 
+}
+
+/* Apply predefined cursor styles */
+a {
+  cursor: pointer; 
+}
+
+button {
+  cursor: pointer;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,
