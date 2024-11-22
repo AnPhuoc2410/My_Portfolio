@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/My_Portfolio/static/css/main.91094bf4.css",
-    "main.js": "/My_Portfolio/static/js/main.5436e2bb.js",
+    "main.js": "/My_Portfolio/static/js/main.620e090b.js",
     "static/css/487.986c1267.chunk.css": "/My_Portfolio/static/css/487.986c1267.chunk.css",
     "static/js/487.79349401.chunk.js": "/My_Portfolio/static/js/487.79349401.chunk.js",
     "static/css/990.b805d64b.chunk.css": "/My_Portfolio/static/css/990.b805d64b.chunk.css",
     "static/js/990.81adea64.chunk.js": "/My_Portfolio/static/js/990.81adea64.chunk.js",
     "static/media/KoiCareLogo.png": "/My_Portfolio/static/media/KoiCareLogo.4c0e0fa70132cf1e45f3.png",
     "static/media/Montserrat-Regular.ttf": "/My_Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/CV_ANPHUOC.pdf": "/My_Portfolio/static/media/CV_ANPHUOC.cbe1631fa4172fffb96f.pdf",
+    "static/media/CV_ANPHUOC.pdf": "/My_Portfolio/static/media/CV_ANPHUOC.281eb4df57b799198160.pdf",
     "static/media/Agustina.woff": "/My_Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/My_Portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/Chuyen_BinhLong.jpg": "/My_Portfolio/static/media/Chuyen_BinhLong.95be9dc365b2ac951de8.jpg",
@@ -26,7 +26,7 @@
     "index.html": "/My_Portfolio/index.html",
     "static/media/talksCardBack.svg": "/My_Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.91094bf4.css.map": "/My_Portfolio/static/css/main.91094bf4.css.map",
-    "main.5436e2bb.js.map": "/My_Portfolio/static/js/main.5436e2bb.js.map",
+    "main.620e090b.js.map": "/My_Portfolio/static/js/main.620e090b.js.map",
     "487.986c1267.chunk.css.map": "/My_Portfolio/static/css/487.986c1267.chunk.css.map",
     "487.79349401.chunk.js.map": "/My_Portfolio/static/js/487.79349401.chunk.js.map",
     "990.b805d64b.chunk.css.map": "/My_Portfolio/static/css/990.b805d64b.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.91094bf4.css",
-    "static/js/main.5436e2bb.js"
+    "static/js/main.620e090b.js"
   ]
 }
