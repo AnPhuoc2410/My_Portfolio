@@ -1,4 +1,6 @@
 @import "../../_globalColor";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
 
 .skills-main-div {
   display: flex;
@@ -26,6 +28,9 @@
 }
 .subTitle {
   color: $subTitle;
+}
+.jetbrains-mono {
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /* Media Query */

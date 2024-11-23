@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 
 @font-face {
   font-family: "Agustina Regular";
@@ -35,10 +35,6 @@ body {
   cursor: url('https://i.pinimg.com/originals/b0/a5/c9/b0a5c97aa78b746a003c36cc8bf593e3.png'), auto; /* Change the cursor to a custom image */
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 code {
   font-family: source-code-pro, Menlo, 'JetBrains Mono', Monaco, Consolas, "Courier New", monospace;
 }
@@ -61,12 +57,6 @@ code {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 70, 85, 0.9);
-}
-
-
-html {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 0, 0, 0.5) #0f1923; 
 }
 
 /* Apply predefined cursor styles */

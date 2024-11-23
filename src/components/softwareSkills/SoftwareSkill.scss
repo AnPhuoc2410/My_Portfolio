@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
 .software-skills-main-div {
   display: flex;
   justify-content: center;
@@ -44,6 +46,9 @@
 .software-skill-inline:hover .skill-name {
   visibility: visible;
   opacity: 1;
+}
+.jetbrains-mono {
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /* Responsive adjustments */

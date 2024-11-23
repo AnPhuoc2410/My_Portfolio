@@ -28,7 +28,7 @@ export default function Skills() {
           </div>
         </Fade>
         <Fade right duration={1000}>
-          <div className="skills-text-div">
+          <div className="skills-text-div jetbrains-mono">
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
@@ -51,7 +51,7 @@ export default function Skills() {
                     key={i}
                     className={
                       isDark
-                        ? "dark-mode subTitle skills-text"
+                        ? "dark-mode subTitle skills-text "
                         : "subTitle skills-text"
                     }
                   >
