@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
+import Quote from "../../components/quote/Quote";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
@@ -60,6 +61,7 @@ export default function Skills() {
                 );
               })}
             </div>
+            <Quote />
           </div>
         </Fade>
       </div>

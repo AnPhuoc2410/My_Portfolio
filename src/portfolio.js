@@ -65,6 +65,26 @@ https://fontawesome.com/icons?d=gallery */
 
 softwareSkills: [
   {
+    skillName: "Spring",
+    logo: "https://skillicons.dev/icons?i=spring&theme=dark"
+  },
+  {
+    skillName: "Java",
+    logo: "https://skillicons.dev/icons?i=java&theme=dark"
+  },
+  {
+    skillName: ".NET",
+    logo: "https://skillicons.dev/icons?i=dotnet&theme=dark"
+  },
+  {
+    skillName: "C#",
+    logo: "https://skillicons.dev/icons?i=cs&theme=dark"
+  },
+  {
+    skillName: "C++",
+    logo: "https://skillicons.dev/icons?i=cpp&theme=dark"
+  },
+  {
     skillName: "React",
     logo: "https://skillicons.dev/icons?i=react&theme=dark"
   },
@@ -99,26 +119,6 @@ softwareSkills: [
   {
     skillName: "Docker",
     logo: "https://skillicons.dev/icons?i=docker&theme=dark"
-  },
-  {
-    skillName: "Spring",
-    logo: "https://skillicons.dev/icons?i=spring&theme=dark"
-  },
-  {
-    skillName: "Java",
-    logo: "https://skillicons.dev/icons?i=java&theme=dark"
-  },
-  {
-    skillName: ".NET",
-    logo: "https://skillicons.dev/icons?i=dotnet&theme=dark"
-  },
-  {
-    skillName: "C#",
-    logo: "https://skillicons.dev/icons?i=cs&theme=dark"
-  },
-  {
-    skillName: "C++",
-    logo: "https://skillicons.dev/icons?i=cpp&theme=dark"
   },
   {
     skillName: "Firebase",
@@ -298,12 +298,12 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "OOP Java Course",
+      subtitle: "Completed Certifcation from Coursera for Java OOP Course.",
+      image: require("./assets/images/oop.jpg"),
+      imageAlt: "OOP Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/VQMCHM48CZ4A"},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"

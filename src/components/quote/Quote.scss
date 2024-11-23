@@ -1,0 +1,33 @@
+@import "../../_globalColor";
+
+.quote-container {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid $valorantGray; /* Use global color for border */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  background-color: $lightBackground1; /* Use global color for background */
+  color: $textColor; /* Use global color for text */
+
+  &.dark-mode {
+    border-color: $valorantWhite; /* Use a contrasting color for dark mode border */
+    background-color: $darkBackground; /* Use global color for dark mode background */
+    color: $textColorDark; /* Use global color for dark mode text */
+  }
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: $subTitle; /* Use global color for author */
+}
+
+.quote-error {
+  font-size: 1.2rem;
+  color: $valorantRed; /* Use global color for error */
+}
