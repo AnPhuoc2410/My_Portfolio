@@ -1,6 +1,6 @@
 {
-  "short_name": "DeveloperFolio",
-  "name": "DeveloperFolio",
+  "short_name": "PhuocNifest",
+  "name": "PhuocNifest",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -16,6 +16,11 @@
       "src": "/android-chrome-384x384.png",
       "type": "image/png",
       "sizes": "384x384"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
