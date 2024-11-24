@@ -151,9 +151,9 @@ const educationInfo = {
     {
       schoolName: "Binh Long High School for the Gifted.",
       logo: require("./assets/images/Chuyen_BinhLong.jpg"),
-      subHeader: "Physics - Chemistry",
+      subHeader: "Physics Specialized Class of L7",
       duration: "September 2019 - April 2022",
-      desc: "THEM SAU",
+      desc: "I Miss ",
       descBullets: ["Vv,Vvm,...."]
     }
   ]
@@ -174,7 +174,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -239,13 +239,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/coming-soon-icon.webp"),
+      projectName: "Spotify Clone",
+      projectDesc: "Maybe Spotify Clone Web App",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: ""
         }
       ]
     }
@@ -263,36 +263,28 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Ethical Emerging Technologist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Certified Ethical Emerging Technologist by IBM.",
+      image: require("./assets/images/CNX_Logo.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://coursera.org/share/f9bfa1862c2dd992e718d18ca3681f1a"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Web Design for Everybody: Basics of Web Development & Coding",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Developed a Web Page as a final project for the course.",
+      image: require("./assets/images/Michigan_Logo.png"),
+      imageAlt: "Michigan University Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://coursera.org/share/a061e6632498a827aab81b179d7b62a3"
         }
       ]
     },
