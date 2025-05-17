@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "AnPhuoc2410": "file:",
+    "axios": "^1.9.0",
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
@@ -13,6 +14,7 @@
     "lottie-react": "^2.4.0",
     "personal-portfolio": "file:",
     "react": "^16.10.2",
+    "react-country-flag": "^3.1.0",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.0.0",
@@ -22,6 +24,7 @@
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
     "react-twitter-embed": "3.0.3",
+    "react-type-animation": "^3.2.0",
     "sass": "^1.32.8"
   },
   "scripts": {

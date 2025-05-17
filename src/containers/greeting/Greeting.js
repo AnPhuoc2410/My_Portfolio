@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Fade } from "react-reveal";
-import Typical from "react-typical";
+import { TypeAnimation } from 'react-type-animation';
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import coding from "../../assets/lottie/coding";
@@ -25,14 +25,15 @@ export default function Greeting() {
             <div>
               {/* Add Typing Animation */}
               <h1 className={isDark ? "dark-mode greeting-text" : "greeting-text"}>
-                <Typical
-                  steps={[
-                    "Hi, I'm An Phuoc", 2000,
-                    "I'm from 🇻🇳", 2000,
-                    "Trying to Do Better!", 2000,
+                <TypeAnimation
+                  sequence={[
+                    'Hi, I\'m An Phuoc', 2000,
+                    'I\'m from 🇻🇳', 2000, 
+                    'Trying to Do Better!', 2000
                   ]}
-                  loop={Infinity}
                   wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
                 />
               </h1>
               <p
