@@ -15,6 +15,7 @@ import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
+import Languages from "../components/languages/Languages";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
@@ -62,6 +63,7 @@ const Main = () => {
             <Blogs />
             <Talks />
             <Twitter />
+            <Languages />
             <Podcast />
             <Profile />
             <Footer />

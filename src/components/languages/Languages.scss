@@ -1,0 +1,62 @@
+.languages-container {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9; // Light mode background
+
+  &.dark-mode-section {
+    background-color: #333; // Dark mode background
+    color: #f0f0f0; // Dark mode text
+
+    .languages-title {
+      color: #fff;
+    }
+    .language-item {
+      background-color: #444; // Dark mode item background
+      border-left-color: #00acc1; // Dark mode accent
+    }
+  }
+
+  .languages-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+  }
+
+  .languages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .language-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #007bff; // Accent color
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .language-icon {
+      font-size: 1.5em; // Adjust as needed for icons
+    }
+
+    .language-name {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .language-level {
+      font-size: 0.9em;
+      color: #555;
+    }
+  }
+  
+  // Example for dark mode specific level color if needed
+  &.dark-mode-section .language-item .language-level {
+    color: #ccc;
+  }
+} 
