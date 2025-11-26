@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/My_Portfolio/static/css/main.9ae6a72f.css",
-    "main.js": "/My_Portfolio/static/js/main.e32d1e3d.js",
+    "main.js": "/My_Portfolio/static/js/main.9055fde9.js",
     "static/css/487.9f9e4399.chunk.css": "/My_Portfolio/static/css/487.9f9e4399.chunk.css",
-    "static/js/487.28bbf46b.chunk.js": "/My_Portfolio/static/js/487.28bbf46b.chunk.js",
+    "static/js/487.68ac3c8d.chunk.js": "/My_Portfolio/static/js/487.68ac3c8d.chunk.js",
     "static/css/990.b805d64b.chunk.css": "/My_Portfolio/static/css/990.b805d64b.chunk.css",
-    "static/js/990.2bce8558.chunk.js": "/My_Portfolio/static/js/990.2bce8558.chunk.js",
+    "static/js/990.2d57c32c.chunk.js": "/My_Portfolio/static/js/990.2d57c32c.chunk.js",
     "static/media/KoiCareLogo.png": "/My_Portfolio/static/media/KoiCareLogo.4c0e0fa70132cf1e45f3.png",
     "static/media/Montserrat-Regular.ttf": "/My_Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/CV_ANPHUOC.pdf": "/My_Portfolio/static/media/CV_ANPHUOC.cbe1631fa4172fffb96f.pdf",
@@ -24,14 +24,14 @@
     "index.html": "/My_Portfolio/index.html",
     "static/media/talksCardBack.svg": "/My_Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9ae6a72f.css.map": "/My_Portfolio/static/css/main.9ae6a72f.css.map",
-    "main.e32d1e3d.js.map": "/My_Portfolio/static/js/main.e32d1e3d.js.map",
+    "main.9055fde9.js.map": "/My_Portfolio/static/js/main.9055fde9.js.map",
     "487.9f9e4399.chunk.css.map": "/My_Portfolio/static/css/487.9f9e4399.chunk.css.map",
-    "487.28bbf46b.chunk.js.map": "/My_Portfolio/static/js/487.28bbf46b.chunk.js.map",
+    "487.68ac3c8d.chunk.js.map": "/My_Portfolio/static/js/487.68ac3c8d.chunk.js.map",
     "990.b805d64b.chunk.css.map": "/My_Portfolio/static/css/990.b805d64b.chunk.css.map",
-    "990.2bce8558.chunk.js.map": "/My_Portfolio/static/js/990.2bce8558.chunk.js.map"
+    "990.2d57c32c.chunk.js.map": "/My_Portfolio/static/js/990.2d57c32c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ae6a72f.css",
-    "static/js/main.e32d1e3d.js"
+    "static/js/main.9055fde9.js"
   ]
 }
