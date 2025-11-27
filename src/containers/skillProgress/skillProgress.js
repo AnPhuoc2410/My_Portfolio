@@ -33,7 +33,7 @@ export default function StackProgress() {
             ) : (
               <img
                 alt="Skills"
-                src={require("../../assets/images/skill.svg")}
+                src={"../../assets/images/skill.svg"}
               />
             )}
           </div>
